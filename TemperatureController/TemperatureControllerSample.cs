@@ -135,7 +135,7 @@ namespace Microsoft.Azure.Devices.Client.Samples
                 await SendDeviceMemoryAsync(cancellationToken);
 
                 temperatureReset = _temperature[Thermostat1] == 0 && _temperature[Thermostat2] == 0;
-                await Task.Delay(10 * 1000, cancellationToken);
+                await Task.Delay(30 * 1000, cancellationToken);
             }
         }
 
