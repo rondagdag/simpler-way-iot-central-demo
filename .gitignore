@@ -353,3 +353,4 @@ TemperatureController/Properties/launchSettings.json
 apitoken
 notes.md
 iotcentral-api.http
+iotcentral-api-device.http
